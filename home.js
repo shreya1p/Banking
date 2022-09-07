@@ -1,11 +1,18 @@
-function Home(){
+const Home = () => {
   return (
-    <Card
-      txtcolor="black"
-      header="BadBank Landing Module"
-      title="Welcome to the bank"
-      text="You can move around using the navigation bar."
-      body={(<img src="bank.png" className="img-fluid" alt="Responsive image"/>)}
-    />    
-  );  
-}
+    <div className="container my-3">
+      <Card
+        header="BadBank Landing Page"
+        title="Welcome to the Bad Bank"
+        text="You can use this bank"
+        body={
+          <img
+            src="./resources/bank.png"
+            className="img-fluid"
+            alt="Bank Logo"
+          />
+        }
+      />
+    </div>
+  );
+};
