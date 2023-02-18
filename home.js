@@ -1,7 +1,7 @@
 function Home(){
   return (
     <Card
-      txtcolor="black"
+      txtcolor="blue"
       header="BadBank Landing Module"
       title="Welcome to the bank"
       text="You can move around using the navigation bar."
